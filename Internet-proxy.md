@@ -1,18 +1,18 @@
-#Setup Internet porxy with Squid Proxy
+# Setup Internet porxy with Squid Proxy
 
-#Install Squid Proxy
+# Install Squid Proxy
 ```bash
 sudo apt update
 sudo apt install squid -y
 ```
 
-#Start and enable squid porxy service
+# Start and enable squid porxy service
 ```bash
 sudo systemctl start squid
 sudo systemctl enable squid
 ```
 
-#Configure whitelist domain
+# Configure whitelist domain
 
 create file whitelist.txt:
 ```bash
@@ -24,7 +24,7 @@ add domain on file whitelist.txt example:
 .github.com
 ```
 
-#Configure Squid (squid.conf)
+# Configure Squid (squid.conf)
 By default, the squid configuration is very long. We backup the original file, and then make new configuration that was cleaner and easy to read.
 
 ```bash
