@@ -18,10 +18,22 @@ create file whitelist.txt:
 ```bash
 vi /etc/squid/whitelist.txt
 
-add domain on file whitelist.txt example:
-.ubuntu.com
-.docker.com
+# General
 .github.com
+.google.com
+
+# Ubuntu
+.archive.ubuntu.com
+.security.ubuntu.com
+.snapcraft.io
+.cloudflare.com
+
+# Docker
+.docker.io
+.registry-1.docker.io
+.auth.docker.io
+.production.cloudflare.docker.com
+.r2.cloudflarestorage.com
 ```
 
 # Configure Squid (squid.conf)
