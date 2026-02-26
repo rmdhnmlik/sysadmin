@@ -1,3 +1,5 @@
+# Topology
+![Architecture Diagram](asset/squid-proxy-topology.png)
 # Setup Internet porxy with Squid Proxy
 
 # Install Squid Proxy
